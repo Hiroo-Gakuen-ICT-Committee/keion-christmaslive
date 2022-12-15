@@ -1,0 +1,135 @@
+body{
+    margin:0;
+}
+.toppage{
+    overflow:hidden;
+    position: relative;
+}
+.logo h1{
+    font-family: 'Kaisei Opti', serif;
+    font-size:2vw ;
+    margin-left: 5vw;
+    position: absolute;
+    top:-3vh;
+    background-color: #FFFFFF;
+    padding:3vh ;
+    border-bottom-left-radius:1000px 200px ;
+    border-bottom-right-radius:1000px 200px;
+}
+
+.back{
+    position: relative;
+    background: rgb(177,187,209);
+    background: linear-gradient(rgba(177,187,209,1) 0%, rgba(89,116,178,1) 48%, rgba(25,33,51,1) 100%);
+    width: 100vw;
+    height: 98vh;
+    border-bottom-left-radius:1000px 200px ;
+    border-bottom-right-radius:1000px 200px;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.5);
+}
+.theme {
+    font-family: 'Berkshire Swash', cursive;
+    color: #FFFFFF;
+    position: absolute;
+    font-size: 20vh;
+    top: 4vh;
+    width: 100vw;
+    text-align: center;
+}
+.menu-list{
+    list-style: none;
+    position: absolute;
+    top:3vh;
+    left:18vw ;
+}
+.menu{
+    float: left;
+    margin-right: 6vw;
+    font-family: 'Kaisei Opti', serif;
+    font-size:3vh ;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.circle1{
+    border:solid 4px #D5D749;
+    position: absolute;
+    top:40vh ;
+    left:-13.5vw ;
+    width:30vw ;
+    height: 30vw;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.circle2{
+    border: solid 4px #D5D749;
+    position: absolute;
+    top:30vh;
+    left: -17.5vw;
+    width: 30vw;
+    height: 30vw;
+    border-radius:50% ;
+    overflow:hidden;
+}
+.circle3{
+    border: solid 4px #D5D749;
+    position: absolute;
+    top:-15vh;
+    left: 82.5vw;
+    width: 30vw;
+    height: 30vw;
+    border-radius:50% ;
+    overflow:hidden;
+}
+.circle4{
+    border: solid 4px #D5D749;
+    position: absolute;
+    top:-5vh;
+    left: 82.5vw;
+    width: 30vw;
+    height: 30vw;
+    border-radius:50% ;
+    overflow:hidden;
+}
+.back2{
+    background-color: #5974B2;
+    width: 100vw;
+    margin-top:10vh ;
+    margin-bottom: 10vh;
+    height: 80vh;
+    position: relative;
+}
+.page-title{
+    font-size: 5vh;
+    font-family: 'Kaisei Opti', serif;
+    position: absolute;
+    margin-top:-92.5vh ;
+    width: 20vw;
+    left:40vw ;
+    text-align: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    background-color: #FFFFFF;
+    border:solid 3px #000000 ;
+}
+.front{
+    background-color: #FFFFFF;
+    width:70vw ;
+    height:60vh ;
+    border-radius:5vh;
+    left:15vw ;
+    position: absolute;
+    top:120vh;
+    z-index: 2;
+}
+.shadow{
+    width:70vw ;
+    height: 60vh;
+    border-radius: 5vh;
+    left:17vw ;
+    position: absolute;
+    top:122vh;
+    background: repeating-linear-gradient(135deg, #2C3A59, #2C3A59 10px, #C9CBD0 10px, #C9CBD0 40px);
+    z-index: 1;
+}
