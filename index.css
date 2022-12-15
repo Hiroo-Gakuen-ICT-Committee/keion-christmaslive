@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     margin:0;
 }
@@ -130,6 +133,84 @@ a{
     left:17vw ;
     position: absolute;
     top:122vh;
+    background: repeating-linear-gradient(135deg, #2C3A59, #2C3A59 10px, #C9CBD0 10px, #C9CBD0 40px);
+    z-index: 1;
+}
+.fruit1{
+    width:4vw ;
+    height: 4vw;
+    border-radius: 50%;
+    position: absolute;
+    top:172vh ;
+    left:13vw;
+    background-color: #FC0202;
+    border: solid 5px #FF8282;
+    z-index: 3;
+}
+.fruit2{
+    width:3.5vw ;
+    height: 3.5vw;
+    border-radius: 50%;
+    position: absolute;
+    top:174vh ;
+    left:11vw;
+    background-color: #FC0202;
+    border: solid 3px #FF8282;
+    z-index: 3;
+}
+.back3{
+    background-color: #3F527F;
+    width: 100vw;
+    margin-top:10vh ;
+    margin-bottom: 10vh;
+    height: 80vh;
+    position: relative;
+}
+.back4{
+    background-color: #2C3A59;
+    width: 100vw;
+    margin-top:10vh ;
+    margin-bottom: 10vh;
+    height: 80vh;
+    position: relative;
+}
+.front2{
+    background-color: #FFFFFF;
+    width:70vw ;
+    height:60vh ;
+    border-radius:5vh;
+    left:15vw ;
+    position: absolute;
+    top:210vh;
+    z-index: 2;
+}
+.front3{
+    background-color: #FFFFFF;
+    width:70vw ;
+    height:60vh ;
+    border-radius:5vh;
+    left:15vw ;
+    position: absolute;
+    top:300vh;
+    z-index: 2;
+}
+.shadow2{
+    width:70vw ;
+    height: 60vh;
+    border-radius: 5vh;
+    left:17vw ;
+    position: absolute;
+    top:212vh;
+    background: repeating-linear-gradient(135deg, #2C3A59, #2C3A59 10px, #C9CBD0 10px, #C9CBD0 40px);
+    z-index: 1;
+}
+.shadow3{
+    width:70vw ;
+    height: 60vh;
+    border-radius: 5vh;
+    left:17vw ;
+    position: absolute;
+    top:302vh;
     background: repeating-linear-gradient(135deg, #2C3A59, #2C3A59 10px, #C9CBD0 10px, #C9CBD0 40px);
     z-index: 1;
 }
