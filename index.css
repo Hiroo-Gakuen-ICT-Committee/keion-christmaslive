@@ -172,7 +172,7 @@ a{
 .back4{
     background-color: #2C3A59;
     width: 100vw;
-    margin-top:10vh ;
+    margin-top:-60vh ;
     margin-bottom: 10vh;
     height: 80vh;
     position: relative;
@@ -186,6 +186,7 @@ a{
     position: absolute;
     top:210vh;
     z-index: 2;
+    overflow-y:scroll ;
 }
 .front3{
     background-color: #FFFFFF;
@@ -280,7 +281,7 @@ a{
     position: absolute;
     width: 15vw;
     top: 250vh;
-    left: 10vw;
+    left: 5vw;
     z-index: 3;
 }
 .leaves img{
@@ -322,13 +323,15 @@ a{
     margin-left: 1vw;
 }
 .slash{
-    margin-left: 3vw;
+    margin-left: 2vw;
 }
 .band{
-    margin-left: 3vw;
+    margin-left: 2vw;
 }
 .time{
-    margin-left:17vw ;
+    position: absolute;
+    white-space: nowrap;
+    left:65vw ;
 }
 .border{
     height:0.5vh ;
@@ -346,6 +349,75 @@ a{
     z-index: 3;
     position:absolute;
     left:5vw ;
+}
+.table-2{
+    font-family: 'Kaisei Opti', serif;
+    font-size: 2.5vw;
+    top:223vh ;
+    z-index: 3;
+    position: absolute;
+    left: 5vw;
+}
+.table-3{
+    font-family: 'Kaisei Opti', serif;
+    font-size: 2.5vw;
+    top:229vh ;
+    z-index: 3;
+    position: absolute;
+    left: 5vw;
+}
+.table-4{
+    font-family: 'Kaisei Opti', serif;
+    font-size: 2.5vw;
+    top:235vh ;
+    z-index: 3;
+    position: absolute;
+    left: 5vw;
+}
+.table-5{
+    font-family: 'Kaisei Opti', serif;
+    font-size: 2.5vw;
+    top:241vh ;
+    z-index: 3;
+    position: absolute;
+    left: 5vw;
+}
+.table-6{
+    font-family: 'Kaisei Opti', serif;
+    font-size: 2.5vw;
+    top:247vh ;
+    z-index: 3;
+    position: absolute;
+    left: 5vw;
+}
+.table-7{
+    font-family: 'Kaisei Opti', serif;
+    font-size: 2.5vw;
+    top:253vh ;
+    z-index: 3;
+    position: absolute;
+    left: 5vw;
+}
+.table-8{
+    font-family: 'Kaisei Opti', serif;
+    font-size: 2.5vw;
+    top:259vh ;
+    z-index: 3;
+    position: absolute;
+    left: 5vw;
+}
+.table-9{
+    font-family: 'Kaisei Opti', serif;
+    font-size: 2.5vw;
+    top: 265vh;
+    z-index: 3;
+    position: absolute;
+    left: 5vw;
+}
+.tables{
+    width:70vw ;
+    height:60vh ;
+    overflow-y: scroll;
 }
 @media screen and  (max-width:960px) {
     .logo h1{
@@ -447,8 +519,37 @@ a{
         top: 184vh;
         left: 5vw;
     }
-    .time{
-        margin-left: 10vw;
+    .table-2{
+        top:187vh ;
+        left: 5vw;
+    }
+    .table-3{
+        top:190vh;
+        left: 5vw;
+    }
+    .table-4{
+        top:193vh;
+        left: 5vw;
+    }
+    .table-5{
+        top:196vh;
+        left: 5vw;
+    }
+    .table-6{
+        top:199vh;
+        left: 5vw;
+    }
+    .table-7{
+        top:202vh;
+        left: 5vw;
+    }
+    .table-8{
+        top:205vh ;
+        left: 5vw;
+    }
+    .table-9{
+        top: 208vh;
+        left: 5vw;
     }
     .video2 iframe{
         width: 60vw;
@@ -462,6 +563,18 @@ a{
     .santa2 img{
         top: 265vh;
         left:77vw ;
+    }
+    .circle1{
+        display: none;
+    }
+    .circle2{
+        display: none;
+    }
+    .circle3{
+        display: none;
+    }
+    .circle4{
+        display: none;
     }
 }
 @media screen and (max-width:767px) {
@@ -578,7 +691,42 @@ a{
     }
     .table-1{
         top: 164vh ;
-        left: 2vw;
+        left: -1vw;
+    }
+    .table-2{
+        top:166vh ;
+        left: -1vw;
+    }
+    .table-3{
+        top: 168vh;
+        left: -1vw;
+    }
+    .table-4{
+        top:170vh ;
+        left: -1vw;
+    }
+    .table-5{
+        top:172vh;
+        left: -1vw;
+    }
+    .table-6{
+        top: 174vh;
+        left: -1vw;
+    }
+    .table-7{
+        top: 176vh;
+        left: -1vw;
+    }
+    .table-8{
+        top: 178vh;
+        left: -1vw;
+    }
+    .table-9{
+        top: 180vh;
+        left:-1vw ;
+    }
+    .time{
+        left: 68vw;
     }
     .video2 iframe{
         top:191vh ;
